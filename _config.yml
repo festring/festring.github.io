@@ -17,13 +17,13 @@ remote_theme: "mmistakes/so-simple-theme@3.2.0"
 # remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/default.css"
 locale: ko_KR
-title: "CheolHyeon_Han"
-description: "반갑습니다"
+title: "한철현"
+description: "Welcome to my Blog!!"
 baseurl: # the subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: # path of site logo, e.g. "/images/logo.png"
+url: "https://festring.github.io"
+logo: "/images/Iron.png"
 date_format: "%B %-d, %Y"
-read_time: # reading time estimates, e.g. true
+read_time: true
 words_per_minute: # 200
 mathjax:
   enable: # MathJax equations, e.g. true, false (default)
@@ -51,15 +51,15 @@ feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-# paginate: 10
-# paginate_path: /page:num/
+paginate: 10
+paginate_path: /page:num/
 
 # Search
 search_full_content: false # can have performance implications for large sites
 
 # Taxonomy pages
-# category_archive_path: "/categories/#"
-# tag_archive_path: "/tags/#"
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -79,6 +79,12 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
+# Collections
+collections:
+  recipes:
+    output: true
+    permalink: /:collection/:path/
+
 # Front Matter Defaults
 defaults:
   # Posts defaults
@@ -87,21 +93,39 @@ defaults:
       type: posts
     values:
       layout: post
+      comments: true
       share: true
+# Recipe defaults
+- scope:
+    path: "_recipes"
+    type: recipes
+  values:
+    layout: post
+    comments: true
+    share: true
 
 # Site Author
 author:
-  name:
-  picture:
+  name: 한철현
+  picture: "/images/Iron.png"
   email:
   twitter:
   links:
-    - title:
-      url:
-      icon:
+    - title: Instagram
+      url: https://instagram.com/festring8
+      icon: fab fa-instagram
+    - title: GitHub
+      url: https://github.com/festirng
+      icon: fab fa-github-square
 
 # Footer Links
 footer_links:
+  - title: Instagram
+    url: https://instagram.com/festring8
+    icon: fab fa-instagram
+  - title: GitHub
+    url: https://github.com/festirng
+    icon: fab fa-github-square
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
