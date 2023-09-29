@@ -101,6 +101,7 @@ DEPENDENCIES
   bundler
   jekyll-theme-so-simple!
   rake (>= 12.3.3)
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.4.19
