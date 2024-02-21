@@ -1,5 +1,6 @@
 ---
 layout: home
 paginate: true
-entries_layout: grid
+entries_layout: list
+paginate: true
 ---
