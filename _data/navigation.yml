@@ -1,15 +1,11 @@
 # Sample site navigation bar links
 
-- title: 홈
+- title: Home
   url: /
-- title: 게시글
-  url: /home/
-- title: 검색
+- title: Projects
+  url: /post/
+- title: Search
   url: /search/
-- title: 카테고리
-  url: /categories/
-- title: 태그
-  url: /tags/
 #- title: Recipes
 #  url: /recipes/
 
