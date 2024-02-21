@@ -3,14 +3,15 @@
 - title: 홈
   url: /
 - title: 게시글
-  url: /posts/
+  url: /home/
+- title: 검색
+  url: /search/
 - title: 카테고리
   url: /categories/
 - title: 태그
   url: /tags/
 #- title: Recipes
 #  url: /recipes/
-- title: 검색
-  url: /search/
+
 # - title: External Page
 #   url: https://the-page.com/you-want-to-link-to.html
