@@ -8,7 +8,7 @@ Currently, I'm learning engineering and software, and I'm trying to make useful 
 
 ## Interest
   * **HCI**
-    *I am interested in improving convenience by analyzing the interaction between people and programs.
+    * I am interested in improving convenience by analyzing the interaction between people and programs.
   * **Moblie & Web**
     * I'm studying Javascript and Dart & Flutter in more detail for program development. I'm getting to know more about the front-end areas that are closer to you among the different areas of programming
   * **DX(Digital Transformation)**
