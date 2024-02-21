@@ -19,7 +19,7 @@ skin: "/assets/css/skins/default.css"
 locale: ko_KR
 title: "한철현"
 description: "Welcome to my Blog!!"
-baseurl: # the subpath of your site, e.g. "/blog"
+baseurl: #d the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: "/images/Iron.png"
 date_format: "%B %-d, %Y"
