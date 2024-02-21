@@ -1,7 +1,7 @@
 ---
 title: Post Archive
 layout: posts
-permalink: /post/
+permalink: /posts/
 show_excerpts: true
 entries_layout: list
 ---
