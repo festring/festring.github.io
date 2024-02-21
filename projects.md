@@ -1,7 +1,7 @@
 ---
 title: Post Archive
 layout: posts
-permalink: /projects/
+permalink: /post/
 entries_layout: list
 paginate: true
 ---
