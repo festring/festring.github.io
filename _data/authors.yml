@@ -1,16 +1,11 @@
 # Sample Authors
 # Remove file or replace with your own
 
-Billy Rick:
-  name: Billy Rick
-  picture: /images/bio-photo-2.jpg
-  twitter: "@billyrick"
+Cheolhyeon Han:
+  name: "한철현"
+  picture: /images/Iron.png
+  Instagram: "@festring8"
   links:
-    - title: Twitter
-      url: https://twitter.com/billyrick
-      icon: fab fa-twitter-square
-
-Cornelius Fiddlebone:
-  name: Cornelius Fiddlebone
-  picture: /images/bio-photo.jpg
-  twitter: corneliusfiddlebone
+    - title: Instagram
+      url: https://instagram.com/festring8
+      icon: fab fa-instagram
