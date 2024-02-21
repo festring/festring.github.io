@@ -1,6 +1,6 @@
 ---
-title: Post Archive
-layout: posts
+title: Projects
+layout: page
 permalink: /projects/
 entries_layout: list
 paginate: true
