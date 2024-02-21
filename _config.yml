@@ -49,7 +49,6 @@ kramdown:
   input: GFM
 
 # Build settings
-permalink: /:categories/:title/
 markdown: kramdown
 feed:
   path: atom.xml
