@@ -44,6 +44,10 @@ twitter:
 liquid:
   error_mode: strict
 
+# Kramdown (ref. https://mmistakes.github.io/so-simple-theme/markup-syntax-highlighting/)
+kramdown:
+  input: GFM
+
 # Build settings
 permalink: /:categories/:title/
 markdown: kramdown
@@ -55,11 +59,11 @@ feed:
 # paginate_path: /page:num/
 
 # Search
-search_full_content: false # can have performance implications for large sites
+search_full_content: true # can have performance implications for large sites
 
 # Taxonomy pages
-# category_archive_path: "/categories/#"
-# tag_archive_path: "/tags/#"
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -99,6 +103,9 @@ author:
     - title: Instagram
       url: https://instagram.com/festring8
       icon: fab fa-instagram
+    - title: GitHub
+      url: https://github.com/festring
+      icon: fab fa-github-square
 
 # Footer Links
 footer_links:
