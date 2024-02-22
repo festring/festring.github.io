@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Fake review account detection system "
 date:   2023-09-27 14:24:53 +0900
 categories: jekyll update
 ---
